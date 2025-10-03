@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="ICQPlugin.dll"/>
+    <OBJFILES value="icqplug.obj main.obj"/>
+    <RESFILES value="ICQPlugin.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value="..\..\libicq\ICQLib.lib"/>
+    <LIBRARIES value="rtl.lib"/>
+    <SPARELIBS value="rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi bcbsmp.bpi dbrtl.bpi adortl.bpi vcldb.bpi 
+      qrpt.bpi bdertl.bpi vcldbx.bpi dsnap.bpi cds.bpi bdecds.bpi teeui.bpi 
+      teedb.bpi tee.bpi teeqr.bpi ibxpress.bpi visualclx.bpi visualdbclx.bpi 
+      vclie.bpi xmlrtl.bpi inet.bpi inetdbbde.bpi inetdbxpress.bpi inetdb.bpi 
+      nmfast.bpi bcbie.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="ICQPlugin.bpf"/>
+    <INCLUDEPATH value="E:\Programme\Borland\CBuilder6\Projects;&quot;C:\Dokumente und Einstellungen\l4t3n8\Eigene Dateien\Mr Recover 1.0\IcqPlugin&quot;;$(BCB)\include;$(BCB)\include\vcl;&quot;C:\Dokumente und Einstellungen\l4t3n8\Eigene Dateien\Mr Recover 1.0&quot;;&quot;C:\Dokumente und Einstellungen\l4t3n8\Eigene Dateien\libicq&quot;"/>
+    <LIBPATH value="E:\Programme\Borland\CBuilder6\Projects;&quot;C:\Dokumente und Einstellungen\l4t3n8\Eigene Dateien\Mr Recover 1.0\IcqPlugin&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-WD -O2 -Vx -Ve -X- -a8 -5 -b- -k- -vi -tWD -tWM -c"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpd -x -Gn -Gi"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0d32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="ICQPlugin.res" FORMNAME="" UNITNAME="ICQPlugin.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ICQPlugin.bpf" FORMNAME="" UNITNAME="ICQPlugin" CONTAINERID="BPF" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="icqplug.cpp" FORMNAME="" UNITNAME="icqplug" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="main.cpp" FORMNAME="" UNITNAME="main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\libicq\ICQLib.lib" FORMNAME="" UNITNAME="ICQLib.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <FILES>
+    <FILE type="override" value="main.cpp" translator="Auto">
+    </FILE>
+    <FILE type="override" value="icqplug.cpp" translator="Auto">
+    </FILE>
+  </FILES>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1031
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=E:\Programme\Borland\CBuilder6\Projects;C:\Dokumente und Einstellungen\l4t3n8\Eigene Dateien\Mr Recover 1.0\IcqPlugin;$(BCB)\include;$(BCB)\include\vcl;C:\Dokumente und Einstellungen\l4t3n8\Eigene Dateien\Mr Recover 1.0;C:\Dokumente und Einstellungen\l4t3n8\Eigene Dateien\libicq
+Item1=E:\Programme\Borland\CBuilder6\Projects;C:\Dokumente und Einstellungen\l4t3n8\Eigene Dateien\Mr Recover 1.0\IcqPlugin;$(BCB)\include;$(BCB)\include\vcl;C:\Dokumente und Einstellungen\l4t3n8\Eigene Dateien\Mr Recover 1.0
+Item2=E:\Programme\Borland\CBuilder6\Projects;C:\Dokumente und Einstellungen\l4t3n8\Eigene Dateien\Mr Recover 1.0\IcqPlugin;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=E:\Programme\Borland\CBuilder6\Projects;C:\Dokumente und Einstellungen\l4t3n8\Eigene Dateien\Mr Recover 1.0\IcqPlugin;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+
+[Linker]
+LibPrefix=
+LibSuffix=
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>
